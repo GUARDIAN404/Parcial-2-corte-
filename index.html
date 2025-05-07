@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio de Josue</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">JDL</div>
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Servicios</a></li>
+        <li><a href="#articulos">Faq</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <button id="toggleColor">- Cambiar Color -</button>
+    </nav>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </header>
+
+  <main>
+
+ 
+    <section id="inicio" class="intro">
+      <h1>JS SOLUCIONES</h1>
+      <p>SOMOS TU SOLUCION EN IMPRESION Y COPIADO</p>
+    </section>
+
+
+    <section class="content-grid">
+
+
+      <div class="box">
+        <h2>Servicios</h2>
+        <ul>
+          <li>Mantenimiento preventivo</li>
+          <li>Diagnostico y revision tecnica</li>
+          <li>Instalacion de driver y configuracion en red</li>
+          <li>Servicio a domicilio en oficina</li>
+          <li>Cambio de pieza</li>
+        </ul>
+      </div>
+
+
+      <div class="box">
+        <h2>Area de Cobertura </h2>
+        <p><strong>Colombia</strong><br>Mountain View, California, Estados Unidos<br>
+          <a href="#">Visit my Profile</a> www.google.com, adwords.googleblog.com y http://www.google.com/intl/es-419/privacy.</p>
+        <p><strong>OpenSource Work</strong>Mountain View, California, Estados Unidos<br><br>
+          <a href="#">Visit my GitHub Profile</a></p>
+      </div>
+
+
+      <div class="box">
+        <h2>Preguntas Frecuentes (FAQ)</h2>
+        <p></p>
+        <ul>
+          <li>¿Cuánto cuesta una revisión?</li>
+          <li>¿Qué impresoras no reparamos?</li>
+          <li>¿Cuánto tarda una reparación?</li>
+          <li>¿Tienen garantía los servicios?</li>
+          
+          
+        </ul>
+      </div>
+
+    </section>
+
+ 
+    <section class="reviews">
+      <h2>Testimonios o Reseñas</h2>
+      <div class="review">
+        <p>"Servicio rápido y muy profesional. Mi impresora HP dejó de imprimir de repente, los contacté y al día siguiente ya la tenía funcionando. ¡Muy recomendados!"</p>
+        <p class="professor">Carlos Mendez<br><span>Oficina Contable </span></p>
+      </div>
+      <div class="review">
+        <p>"Pensé que tendría que comprar una nueva impresora, pero la repararon por mucho menos de lo que imaginé. Además, vinieron a mi casa. Excelente atención."</p>
+        <p class="professor">Laura Gutierrez<br><span>Usuaria Particular</span></p>
+      </div>
+      <div class="review">
+        <p>"Nos salvaron justo antes de una entrega importante. Muy agradecido por la rapidez, el técnico sabía exactamente qué hacer con nuestra multifuncional Epson."</p>
+        <p class="professor">Francisco Torres<br><span>Gerente IT</span></p>
+      </div>
+    </section>
+
+
+    <section id="contacto" class="contact-section">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/xldbebav" method="POST">
+        <input type="text" name="name" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; BARRANQUILLA, COLOMBIA 2025 TODOS LOS DERECHOS RESERVADOS</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
